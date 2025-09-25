@@ -1,3 +1,11 @@
+// animasi
+window.addEventListener("load", () => {
+  document.querySelectorAll(".fade-in, .zoom-in").forEach(el => {
+    el.style.animationPlayState = "running";
+  });
+});
+
+// Tombol hubungi saya
 const contactBtn = document.getElementById("contactbtn");
 
 contactBtn.addEventListener("click", function() {
