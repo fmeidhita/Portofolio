@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+    background: #28b7a8;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 90hv;
+    background: #f1f9ff;
+    padding: 4rem 8%;
+}
+
+.hero .container {
+    max-width: 50%;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #28b7a8;
+}
+
+.hero p.tagline {
+    font-size: 1.3rem;
+    line-height: 1.8;
+    color: #2d2d2d;
+    margin-bottom: 2rem;
+}
+
+.hero button {
+    background: #28b7a8;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 1rem;
+
+}
+
+.hero button:hover {
+    background: #eb198d;
+    color: white;
+}
+
+.hero .image img {
+    width: 550px;
+    height: 550px;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Tentang Saya */
+.about {
+    background-color: #f8faff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+
+.about h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+
+.about p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    line-height: 1.8;
+    color: #444;
+}
+
+/* Project */
+#projects {
+    color: #e7f0f9;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+#projects h2 {
+    font-size: 2rem;
+}
+
+
+.semuaproject {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.semuaproject div {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 18px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.semuaproject div:hover {
+    background: #28b7a8;
+}
+
+.semuaproject img {
+    width: 100px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.semuaproject h3 {
+    margin: 10px 0;
+    font-size: 1.3rem;
+    color: #1c1d1e;
+}
+
+.semuaproject p {
+    color: #444
+}
+
+/* Sertifikat */
+#sertifikat {
+    background-color: #f8faff;
+    color: #28b7a8;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+#sertifikat h2 {
+    font-size: 2rem;
+}
+
+.semuasertif {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.semuasertif div {
+    background: #28b7a8;
+    padding: 20px;
+    width: 300px;
+    border-radius: 18px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.semuasertif div:hover {
+    background: #54cdc1;
+}
+
+.semuasertif img {
+    width: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.semuasertif h3 {
+    margin: 10px 0;
+    font-size: 1.3rem;
+    color: white;
+}
